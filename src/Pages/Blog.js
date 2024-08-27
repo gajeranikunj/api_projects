@@ -284,7 +284,6 @@ function Blog() {
                               transition: "0.3s",
                             },
                           }}
-                          onClick={() => goon(`/adminpanel/component/Blog/details/?s=${item.title}`)}
                         >
                           <Box sx={{ width: "100%" }}>
                             <Box
@@ -295,6 +294,7 @@ function Blog() {
                                 backgroundSize: "cover",
                                 backgroundPosition: "center",
                               }}
+                              onClick={() => goon(`/adminpanel/component/Blog/details/?s=${item.title}`)}
                             ></Box>
                           </Box>
                           <Box
