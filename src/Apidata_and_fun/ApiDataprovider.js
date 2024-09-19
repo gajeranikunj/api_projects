@@ -12,7 +12,7 @@ export const Apidataprovider = ({ children }) => {
   const [data, setData] = useState([]);
   const [edit, setEdit] = useState(null);
   const inputRef = useRef(null);
-  const kye = "f1724733013058sur45565656zg";
+  const kye = " r1726726546343lgc566577531vz";
   const [auth, setAuth] = useState(window.localStorage.getItem("kye"))
 
   // Fetch Data
